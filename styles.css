@@ -44,11 +44,14 @@ body {
 }
 
 .logo-img {
-  height: 100px;
+  height: 54px;
   width: auto;
   display: block;
   object-fit: contain;
   border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,150,136,0.10);
+  background: #fff;
+  padding: 4px;
 }
 
 .nav-links {
@@ -140,6 +143,21 @@ body {
 .card-icon {
   font-size: 2.5rem;
   margin-bottom: 0.5rem;
+}
+.img-service {
+  width: 100%;
+  max-width: 180px;
+  height: 120;
+  object-fit: cover;
+  border-radius: 1em;
+  margin: 0.7em auto 1em auto;
+  display: block;
+  box-shadow: 0 4px 16px rgba(0,150,136,0.10);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.service-card: hover .img-service {
+  transform: scale(1.6) rotate(-2deg);
+  box-shadow: 0 8px 32px rgba (0,150,136,0.18);
 }
 .service-img {
   width: 100%;
@@ -387,6 +405,12 @@ body {
     font-size: 1.05em;
     padding: 0.8em 1em;
   }
+  .img-service {
+    max-width: 120px;
+    height: 80px;
+  }
+  .logo-img {
+    height: 40px;
 }
 @media (max-width: 600px) {
   .container {
@@ -439,8 +463,14 @@ body {
     right: 16px;
   }
   .img-service {
-    width: 20px;
+    max-width: 90px;
+    height: 60px;
 }
+  .logo-img {
+    height: 32px;
+    border-radius: 8px;
+    padding: 2px;
+  }
 
 .whatsapp-float {
   position: fixed;
