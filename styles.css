@@ -406,8 +406,8 @@ body {
     padding: 0.8em 1em;
   }
   .img-service {
-    max-width: 120px;
-    height: 80px;
+    max-width: 150px;
+    height: 110px;
   }
   .logo-img {
     height: 40px;
@@ -463,8 +463,8 @@ body {
     right: 16px;
   }
   .img-service {
-    max-width: 90px;
-    height: 60px;
+    max-width: 120px;
+    height: 90px;
 }
   .logo-img {
     height: 32px;
