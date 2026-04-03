@@ -423,6 +423,7 @@ body {
   .logo-img {
     height: 40px;
 }
+}
 @media (max-width: 600px) {
   .container {
     padding: 0 0.5rem;
@@ -478,7 +479,7 @@ body {
     border-radius: 8px;
     padding: 2px;
   }
-
+}
 .whatsapp-float {
   position: fixed;
   bottom: 32px;
@@ -494,7 +495,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-right: 20px;
 }
 .whatsapp-float:hover {
   transform: scale(1.08);
@@ -503,4 +503,4 @@ body {
 .whatsapp-float {
     bottom: 16px;
     right: 16px;
-  }
+}
