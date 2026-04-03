@@ -458,10 +458,6 @@ body {
     font-size: 0.98em;
     padding: 0.7em 0.7em;
   }
-  .whatsapp-float {
-    bottom: 16px;
-    right: 16px;
-  }
   .img-service {
     max-width: 120px;
     height: 90px;
@@ -493,3 +489,7 @@ body {
   transform: scale(1.08);
   box-shadow: 0 8px 32px rgba(37,211,102,0.25);
 }
+.whatsapp-float {
+    bottom: 16px;
+    right: 16px;
+  }
