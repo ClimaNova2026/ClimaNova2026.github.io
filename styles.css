@@ -278,6 +278,17 @@ body {
   color: #00b4d8;
   font-weight: 700;
 }
+.contact-detail a[href*="whatsapp.com/channel"] {
+  color: #25d366;
+  font-weight: 700;
+  text-decoration: none;
+  margin-left: 0.4em;
+  transition: color 0.2s, text-shadow 0.2s;
+}
+.contact-detail a[href*="whatsapp.com/channel"]: hover {
+  color: #128c7e;
+  text-shadow: 0 2px 12px #25d36655;
+}
 
 .contact-whatsapp-link {
   color: #25d366;
