@@ -438,6 +438,8 @@ body {
     bottom: 16px;
     right: 16px;
   }
+  .img-service {
+    width: 20px;
 }
 
 .whatsapp-float {
